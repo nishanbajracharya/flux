@@ -1,0 +1,29 @@
+{
+  "name": "flux",
+  "version": "1.0.0",
+  "description": "A flux store implementation",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3"
+  },
+  "scripts": {
+    "build": "babel src/ -d build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nishanbajracharya/flux.git"
+  },
+  "keywords": [
+    "flux"
+  ],
+  "author": "Nishan Bajracharya <nisbaj11@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nishanbajracharya/flux/issues"
+  },
+  "homepage": "https://github.com/nishanbajracharya/flux#readme"
+}
